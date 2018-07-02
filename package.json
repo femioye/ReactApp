@@ -1,8 +1,10 @@
 {
   "name": "reactapp-master",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "private": true,
+  "homepage": "https://femioye.github.io/reactApp/",
+  
   "scripts": {
       "start": "react-scripts start",
       "build": "react-scripts build",
@@ -19,13 +21,14 @@
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/femioye/reactApp.git"
   },
   "bugs": {
     "url": "https://github.com/femioye/reactApp/issues"
-  },
-  "homepage": "https://github.com/femioye/reactApp#readme"
+  }
 }
