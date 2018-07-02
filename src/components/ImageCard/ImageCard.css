@@ -1,0 +1,27 @@
+container {
+    display:inline-block;
+}
+
+.card{
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 3px;
+    position: relative;
+    width: 170px;
+    box-shadow: 0 2px 5px rgba(153, 153, 153, 0.61), 0 3px 6px rgba(153, 153, 153, 0.61);
+    height: 150px;
+    text-align:center;
+    transition: all .2s ease-in-out;
+    margin: 1rem;
+}
+
+.img-responsive {
+    width: 80%;
+    padding-top:10px;
+    margin-left: 18px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 20px rgb(35, 216, 216);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
